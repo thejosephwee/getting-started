@@ -15,7 +15,7 @@ Route::get('/',function(){
     return view('blog.index');
 })->name('blog.index');
 
-Route:get('post/{id}',function(){
+Route::get('post/{id}',function(){
   return view('blog.post');
 })->name('blog.post');
 
