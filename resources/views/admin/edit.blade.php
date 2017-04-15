@@ -1,6 +1,6 @@
-@extends('layouts.admin)
+@extends('layouts.admin')
 
-@section('content)
+@section('content')
     <div class="row">
         <div class="col-md-12">
             <form action="{{ route('admin.update') }}" method="post">

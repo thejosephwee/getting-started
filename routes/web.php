@@ -21,7 +21,7 @@ Route::get('post/{id}',function(){
 
 Route::get('about',function(){
     return view('other.about');
-})->name('other.about)');
+})->name('other.about');
 
 Route::group(['prefix' => 'admin'],function() {
 
