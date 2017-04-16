@@ -38,8 +38,8 @@ Route::group(['prefix' => 'admin'],function() {
     ]);
 
     Route::post('create',[
-       'uses' => 'PostController@getAdminCreate',
-       'as' => 'admin.edit'
+       'uses' => 'PostController@postAdminCreate',
+       'as' => 'admin.create'
     ]);
 
     Route::get('edit/{id}', [
