@@ -19,7 +19,7 @@
         <div class="col-md-12">
             <p>
                 <strong>{{ $post['title'] }}</strong>
-                <a href="{{ route('admin.edit', ['id'=>array_search($post,$posts)]) }}">Edit</a>
+                <a href="{{ route('admin.edit', ['id'=>array_search($post, $posts)]) }}">Edit</a>
             </p>
         </div>
     </div>

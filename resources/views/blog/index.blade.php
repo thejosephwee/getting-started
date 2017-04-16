@@ -11,7 +11,7 @@
             <div class="col-md-12 text-center">
                 <h1 class="post-title">{{ $post['title'] }}</h1>
                 <p>{{ $post['content'] }}!</p>
-                <p><a href="{{ route('blog.post', ['id'=>array_search($post,$posts)]) }}"></a></p>
+                <p><a href="{{ route('blog.post', ['id'=>array_search($post,$posts)]) }}">Read more...</a></p>
             </div>
         </div>
     @endforeach
